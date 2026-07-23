@@ -4,6 +4,14 @@ A Codex skill that helps users prepare reliable masks for OpenAI image edits. It
 
 ## Install
 
+Install in the current project:
+
+```bash
+npx skills add catoncat/prepare-image-edit-mask --skill prepare-image-edit-mask --agent codex -y
+```
+
+Or install globally for the current user:
+
 ```bash
 npx skills add catoncat/prepare-image-edit-mask --skill prepare-image-edit-mask --agent codex -g -y
 ```
