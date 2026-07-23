@@ -1,4 +1,4 @@
 interface:
-  display_name: "正确使用图片编辑蒙版"
-  short_description: "教客户制作、检查并提交符合 OpenAI 约定的图片编辑蒙版"
-  default_prompt: "Use $use-image-edit-mask to teach me how to prepare and check a mask for this image edit."
+  display_name: "准备图片编辑蒙版"
+  short_description: "协助制作、转换、预览并验证 OpenAI 图片编辑蒙版"
+  default_prompt: "Use $prepare-image-edit-mask to prepare and verify a mask for this image edit."
