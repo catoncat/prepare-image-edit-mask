@@ -1,0 +1,21 @@
+agents/openai.yaml
+  s_3ab6db57b93192::t_9fb94f6ffc940a 1-4
+scripts/show_mask.py
+  s_3ab6db57b93192::t_09ef9ca0a1f831 1-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "10a285a62fa974d97d46c62cc6967cbe4b121e63",
+  "prompts": {},
+  "sessions": {
+    "s_3ab6db57b93192": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8920-4423-7f43-b506-1aed52040c3d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "cat <git@chen.rs>"
+    }
+  }
+}
