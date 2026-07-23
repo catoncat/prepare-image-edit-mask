@@ -64,6 +64,7 @@ Opening a transparent PNG against a white viewer background may look blank. Alph
 | Opposite region changes | Selection convention was reversed | Normalize with the matching selection mode |
 | Mask looks blank | Viewer hides transparency | Use the red-overlay preview or checkerboard |
 | Complex edge is wrong | Pixel selection is inaccurate | Refine selection or segmentation |
+| Client claims to send a mask but none is observed | Request body may omit or rename the mask field | Capture the actual multipart request with `examples/capture-image-edit-request.js`, then inspect the downloaded files |
 | Service rejects the pair | Format, dimensions, size, or alpha is invalid | Re-export a same-size PNG pair with alpha |
 
 ## Commands

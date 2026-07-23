@@ -51,6 +51,12 @@ alpha 1-254 = soft transition
 
 The helper requires Python with [Pillow](https://python-pillow.org/). The skill remains usable as a teaching and orchestration workflow when Pillow is unavailable.
 
+## Advanced Request Capture
+
+[`examples/capture-image-edit-request.js`](examples/capture-image-edit-request.js) is an optional browser-console diagnostic. It downloads Blob fields from outgoing `/images/edits` multipart requests without changing the request, so an advanced user can verify whether the client actually sent `image` and `mask` files.
+
+It does not create a mask. Use the downloaded pair with `mask_tool.py inspect`. Run it only on a trusted local tool and expect the browser to ask for permission when multiple files are downloaded.
+
 ## License
 
 MIT
