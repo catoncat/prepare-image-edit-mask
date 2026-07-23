@@ -1,0 +1,27 @@
+README.md
+  s_3ab6db57b93192::t_09f8f7a4449e2a 1-2,4-48
+  s_3ab6db57b93192::t_3a197eb3f9ac5f 3
+SKILL.md
+  s_3ab6db57b93192::t_09f8f7a4449e2a 2-3,6,10,12-14,16-20,22-28,31-34,36-37,39-43,45,47-56,60,62-67,69,71,74-83,86-87,90-98
+  s_3ab6db57b93192::t_3a197eb3f9ac5f 8,30
+agents/openai.yaml
+  s_3ab6db57b93192::t_09f8f7a4449e2a 2-4
+scripts/mask_tool.py
+  s_3ab6db57b93192::t_09f8f7a4449e2a 2,14,18-30,36-56,80,84,89-91,94-96,98-99,101,108-118,120,122-125,127-138,141,144-145,147,149-191,195-228
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "33bf7aee537463b08e16e76bd239afe8b9e1a616",
+  "prompts": {},
+  "sessions": {
+    "s_3ab6db57b93192": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f8920-4423-7f43-b506-1aed52040c3d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "cat <git@chen.rs>"
+    }
+  }
+}
